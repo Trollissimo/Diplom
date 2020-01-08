@@ -1,0 +1,16 @@
+@import "./__newsList/__newsList.css";
+@import "./__result__title/__result__title.css";
+@import "./__result__analytics/__result__analytics.css";
+
+.result {
+    color: #1A1B22;
+    background: #F5F6F7;
+    padding-top: 80px;
+}
+
+.result__header {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 104px;
+    margin-right: 104px;
+}

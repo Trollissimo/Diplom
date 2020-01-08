@@ -1,0 +1,8 @@
+@import "./__newsCard__img/__newsCard__img.css";
+@import "./__newsCard__date/__newsCard__date.css";
+
+.newsCard {
+    display: flex;
+    flex-direction: column;
+    width: calc(100%/3-32px);
+}

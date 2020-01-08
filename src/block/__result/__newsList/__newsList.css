@@ -1,0 +1,13 @@
+@import "./__newsCard/__newsCard.css";
+
+.newsList {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: black;
+    background: #F5F6F7;
+    margin-top: 64px;
+    margin-left: 104px;
+    margin-right: 104px;
+    margin-bottom: 64px;
+}

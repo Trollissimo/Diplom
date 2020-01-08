@@ -1,0 +1,7 @@
+@import url("./__item/__item.css");
+
+.nav {
+    display: flex;
+    margin-top: 30px;
+    margin-right: 67px;
+}

@@ -1,0 +1,9 @@
+@import url('./__input/input.css');
+@import url('./__button/__button.css');
+
+.string {
+    margin: auto;
+    box-sizing: border-box;
+    margin-bottom: 80px;
+    margin-top: 64px;
+}

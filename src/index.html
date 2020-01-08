@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta description = "Сайт для поиска любых новостей происходящих в мире">
+    <meta author = "Зроль Евгений">
+    <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css %>">
+    <title>Поиск новостей</title>
+</head>
+<body>
+    <main class="main">
+        <section class = "search">
+            <header class="header">
+                <p class = "logo">NewsAnalyzer</p>
+                <nav class = "nav">
+                    <a class = "nav__item nav__item_active" href="#">Главная</a>
+                    <a class = "nav__item" href="#">О проекте</a>
+                </nav>
+            </header>
+            <h1 class="title">Что в мире творится?</h1>
+            <p class="subtitle">Введите в поиске любую тему и узнайте, насколько популярной она была в носотях за прошедшую неделю.</p>
+            <div class="string">
+                <input  required type="text" name="name" minlength="2" maxlength="60" class="string__input" placeholder="Введите тему новости">
+                <span  class="error" aria-live="polite"></span>
+                <button type class="string__button" name = 'button'>Искать</button>
+            </div>
+        </section>
+        <section class="result">
+            <div class = "result__header">
+                <h2 class="result__title">Результаты поиска</h2>
+                <div class="group__analytics">
+                    <a class="result__analytics" href="">Посмотреть аналитику</a>
+                    <a class=arrow href=""><img src="<%=require('./image/arrow.svg').default%>"></a>
+                </div>
+            </div>
+            <div class="newsList">
+                <div class="newsCard">
+                    <img src="<%=require('./image/card.jpg').default%>" alt="зеленые листья цветов" class="newsCard__img">
+                    <time class="newsCard__date">дата и время</time>
+                    <h3 class="newsCard__title">Национальное достояние – парки</h3>
+                    <p class="newsCard__description">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система национальных парков – охраняемых территорий, где и сегодня каждый может приобщиться к природе.</p>
+                    <a href="" >источник</a>
+                </div>
+                <div class="newsCard">
+                    <img src="<%=require('./image/card.jpg').default%>" alt="зеленые листья цветов" class="newsCard__img">
+                    <time class="newsCard__date">дата и время</time>
+                    <h3 class="newsCard__title">Национальное достояние – парки</h3>
+                    <p class="newsCard__description">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система национальных парков – охраняемых территорий, где и сегодня каждый может приобщиться к природе.</p>
+                    <a href="" >источник</a>
+                </div>
+                <div class="newsCard">
+                    <img src="<%=require('./image/card.jpg').default%>" alt="зеленые листья цветов" class="newsCard__img">
+                    <time class="newsCard__date">дата и время</time>
+                    <h3 class="newsCard__title">Национальное достояние – парки</h3>
+                    <p class="newsCard__description">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система национальных парков – охраняемых территорий, где и сегодня каждый может приобщиться к природе.</p>
+                    <a href="" >источник</a>
+                </div>
+            </div>
+        </section>
+        <section class = "author">
+            <img src="<%=require('./image/avatar.jpg').default%>" alt="Фотография автора" class="avatar">
+            <article class = "about-author">
+                <h3 class="about-author__title">Об авторе</h3>
+                <p class = "about-author__description"> Это блок с описаением автора проекта. Здесь следует указать, как вас зовут, чем вы занимаетесь, какими технологиями разработки владете. Также можно рассказать о процессе обучения в Практикуме, чему вы тут научились, и чем можете помочь потенциальным заказчикам.</p>
+            </article>
+        </section>
+        <section class = "footer">
+            <p class="footer__copyright">&copy; 2019 Зроль Евгений</p>
+            <ul class="footer-nav">
+                <li class="footer-nav__item"><a href="#" class="link footer__link">Главная</a></li>
+                <li class="footer-nav__item"><a href="#" class="link footer__link">О проекте</a></li>
+                <li class="footer-nav__item"><a href="https://praktikum.yandex.ru/" class="link footer__link">Практикум</a></li>
+            </ul>
+            <div class="footer__img">
+                <a class="contact" href="https://github.com/Trollissimo"><img src="<%=require('./image/gh.svg').default%>" alt="логотип github" class="footer__logo"></a>
+                <a class="contact" href="https://vk.com/id2641182"><img src="<%=require('./image/vk.svg').default%>" alt="логотип вконтакте" class="footer__logo"></a>
+            </div>
+        </section>
+    </main>
+    <script src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
+</body>
+</html>

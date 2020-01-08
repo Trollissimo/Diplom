@@ -1,0 +1,7 @@
+@import url("./__footer-nav__item/__footer-nav__item.css");
+
+.footer-nav {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}

@@ -1,0 +1,25 @@
+@import url('./__title/__title.css');
+@import url('./__subtitle/__subtitle.css');
+@import url('./__string/__string.css');
+
+.search {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-image: url("../../image/фон.jpg");
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    box-sizing: border-box;
+}
+
+.search:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.5);
+    z-index: -1;
+  }

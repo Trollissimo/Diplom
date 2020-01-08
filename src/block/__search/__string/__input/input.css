@@ -1,0 +1,9 @@
+.string__input {
+    width: 608px;
+    height: 64px;
+    border: 1px solid #D1D2D6;
+    border-radius: 100px;
+    font-size: 16px;
+    line-height: 22px;
+    padding-left: 24px;
+}

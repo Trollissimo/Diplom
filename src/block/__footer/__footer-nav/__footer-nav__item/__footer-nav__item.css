@@ -1,0 +1,11 @@
+@import url("./__footer__link/__footer__link.css");
+
+.footer-nav__item {
+    margin-right: 48px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    list-style-type: none;
+}

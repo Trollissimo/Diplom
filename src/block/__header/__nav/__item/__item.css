@@ -1,0 +1,13 @@
+.nav__item {
+    margin-right: 34px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: white;
+    text-decoration: none;
+}
+.nav__item_active {
+    border-bottom: white solid 3px;
+}

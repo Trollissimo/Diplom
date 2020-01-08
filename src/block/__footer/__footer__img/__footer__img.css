@@ -1,0 +1,7 @@
+@import "./__footer__logo/__footer__logo.css";
+@import "./__contact/__contact.css";
+
+.footer__img {
+    display: flex;
+    margin-right: 76px;
+}

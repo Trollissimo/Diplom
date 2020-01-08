@@ -1,0 +1,7 @@
+@import url('./block/__main.css');
+@import url("./vendor/normalize.css");
+@import url("./block/__header/_header.css");
+@import url("./block/__search/search.css");
+@import url("./block/__author/__author.css");
+@import url("./block/__footer/__footer.css");
+@import "./block/__result/__result.css";

@@ -1,0 +1,10 @@
+@import url("./__footer__copyright/__footer__copyright.css");
+@import url("./__footer-nav/__footer-nav.css");
+@import "./__footer__img/__footer__img.css";
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    color: black;
+    justify-content: space-between;
+}
