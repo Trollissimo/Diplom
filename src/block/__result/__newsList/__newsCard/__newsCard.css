@@ -1,8 +1,22 @@
 @import "./__newsCard__img/__newsCard__img.css";
 @import "./__newsCard__date/__newsCard__date.css";
+@import "./__newsCard__title/__newsCard__title.css";
+@import "./__newsCard__description/__newsCard__description.css";
+@import "./__newsCard__source/__newsCard__source.css";
 
 .newsCard {
     display: flex;
     flex-direction: column;
-    width: calc(100%/3-32px);
+    width: calc(100%/3-16px);
+    height: 576px;
+    background: white;
+    border-radius: 16px;
+    margin-right: 16px;
+    margin-top: 16px;
+}
+
+.newsCard__text {
+    height: 200px;
+    display: block;
+    overflow: auto;
 }

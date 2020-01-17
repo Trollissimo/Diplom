@@ -1,7 +1,6 @@
 @import "./__arrow/__arrow.css";
 
 .result__analytics {
-    width: 197px;
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -9,6 +8,7 @@
     line-height: 24px;
     text-decoration: none;
     color: #1A1B22;
+    margin-right: 10px;
 }
 
 .group__analytics {

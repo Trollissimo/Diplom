@@ -1,0 +1,12 @@
+@import "./__cell__img/__cell__img.css";
+@import "./__cell__title/__cell__title.css";
+
+.cell {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 40px;
+    width: 120px;
+    height: 153px;
+}

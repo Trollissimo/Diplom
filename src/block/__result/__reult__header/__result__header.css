@@ -1,0 +1,6 @@
+.result__header {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 104px;
+    margin-right: 104px;
+}

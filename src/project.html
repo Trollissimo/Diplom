@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta description = "Информация о проекте, использованных технологиях, ">
+    <meta name="author" content="Зроль Евгений" />
+    <link rel="icon" href="<%=require('./image/favicon.png').default%>" type="image/x-icon">
+    <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css %>">
+    <title>О проекте</title>
+</head>
+<body>
+    <main class="main">
+        <header class="header header_black">
+            <p class = "logo">NewsAnalyzer</p>
+            <nav class = "nav">
+                <a class = "nav__item nav__item_grow " href="./index.html">Главная</a>
+                <a class = "nav__item nav__item_active_black nav__item_black" href="#">О проекте</a>
+            </nav>
+        </header>
+        <section class="client">
+            <h2 class="client__title">Клиентам</h2>
+            <p class="client__text">Этот сайт — дипломный проект студента Яндкс.Практикума. Его цель — показать, чему научился студент, и какими технологиями владеет.</p>
+            <p class="client__text"> Вёртска сайта выполнена по методологии БЭМ. Это делает сайт гибким и масштабируемым. Кроме того, добавлять новые страницы и функциальность проще и быстрее, чем в проектах, выполненных по другим методологиям. Также сайт проще и дешевле поддерживать.</p>
+            <p class="client__text"> Карточки с новостям приходят с сервера и обрабатываются асихронно. То есть сайт продолжает работать, пока от сервера приходит ответ. Это повышает удобство использования сервиса.</p> 
+            <p class="client__text">При создании проекта была использона сборка технологией Webpack. Это современный подход к разработке сайтов. Код оптимизируется, а значит, сайт работает быстрее. Также настроена сайт работает в старых браузерах. Даже если посетители — пользователи старых операционных систем у них не будет проблем с отображением. А значит потенциальная аудитория возрастает.</p> 
+            <p class="client__text">Проект был проверен экспертами Яндекс.Практикума. И если вашему бизесу нужен сайт, мы рекомендуем обратиться к этому студенту.</p>
+        </section>
+        <section class="tech">
+            <h2 class="tech__title">Используемые технологии</h2>
+            <div class="tech__group">
+                <div class="cell">
+                    <h3 class="cell_title">HTML</h3>
+                    <img src="<%=require('./image/html.svg').default%>" alt="" class="cell__img">
+                </div>
+                <div class="cell">
+                    <h3 class="cell_title">CSS</h3>
+                    <img src="<%=require('./image/css.svg').default%>" alt="" class="cell__img">
+                </div>
+                <div class="cell">
+                    <h3 class="cell_title">JavaScript</h3>
+                    <img src="<%=require('./image/js.svg').default%>" alt="" class="cell__img">
+                </div>
+                <div class="cell">
+                    <h3 class="cell_title">Webpack</h3>
+                    <img src="<%=require('./image/webpack.svg').default%>" alt="" class="cell__img">
+                </div>
+            </div>
+        </section>
+        <section class = "author">
+            <img src="<%=require('./image/avatar.jpg').default%>" alt="Фотография автора" class="avatar">
+            <article class = "about-author">
+                <h3 class="about-author__title">Об авторе</h3>
+                <p class = "about-author__description"> Это блок с описаением автора проекта. Здесь следует указать, как вас зовут, чем вы занимаетесь, какими технологиями разработки владете. Также можно рассказать о процессе обучения в Практикуме, чему вы тут научились, и чем можете помочь потенциальным заказчикам.</p>
+            </article>
+        </section>
+        <section class="history">
+            <div class = "result__header">
+                <h2 class="result__title">История коммитов из GitHub</h2>
+                <div class="group__analytics">
+                    <a class="result__analytics" href="https://github.com/Trollissimo/Diplom">Открыть в Github</a>
+                    <a class=arrow href="https://github.com/Trollissimo/Diplom"><img src="<%=require('./image/arrow.svg').default%>"></a>
+                </div>
+            </div>
+            <div class="commentators">
+                <img src="<%=require('./image/leftArrow.svg').default%>" alt="левая кнопка слайдера" class="leftArrow">
+                <div class="commentator">
+                    <p class="commentator__date">какая то дата</p>
+                    <div class="commentator__about">
+                        <img src="<%=require('./image/комментатор.jpg').default%>" alt="фото комментатора" class="commentator__ava">
+                        <div class="commentator__info">
+                            <h4 class="commentator__name">Антон Долинин</h4>
+                            <p class="commentator__email">anton@yandex.ru</p>
+                        </div>
+                    </div>
+                    <p class="commentator__commet"> You can install this plugin directly from NetBeans Plugin Portal: in NetBeans, open Tools > Plugins > Available plugins and find and install Emmet plugin.</p>
+                </div>
+                <div class="commentator">
+                    <p class="commentator__date">какая то дата</p>
+                    <div class="commentator__about">
+                        <img src="<%=require('./image/комментатор.jpg').default%>" alt="фото комментатора" class="commentator__ava">
+                        <div class="commentator__info">
+                            <h4 class="commentator__name">Антон Долинин</h4>
+                            <p class="commentator__email">anton@yandex.ru</p>
+                        </div>
+                    </div>
+                    <p class="commentator__commet">Emmet (formerly Zen Coding) is a web- developer’s toolkit that can greatly improve your HTML & CSS workflow.</p>
+                </div>
+                <div class="commentator">
+                    <p class="commentator__date">какая то дата</p>
+                    <div class="commentator__about">
+                        <img src="<%=require('./image/комментатор.jpg').default%>" alt="фото комментатора" class="commentator__ava">
+                        <div class="commentator__info">
+                            <h4 class="commentator__name">Антон Долинин</h4>
+                            <p class="commentator__email">anton@yandex.ru</p>
+                        </div>
+                    </div>
+                    <p class="commentator__commet">Emmet (formerly Zen Coding) is a web- developer’s toolkit that can greatly improve your HTML & CSS workflow.</p>
+                </div>
+                <img class="rightArrow" src="<%=require('./image/rightArrow.svg').default%>" alt="правая кнопка слайдера">
+            </div>
+            <div class="control">
+                <img src="<%=require('./image/точка.svg').default%>" alt="переключение слайдера" class="control__ellips">
+                <img src="<%=require('./image/точка_черная.svg').default%>" alt="переключение слайдера" class="control__ellips">
+                <img src="<%=require('./image/точка.svg').default%>" alt="переключение слайдера" class="control__ellips">
+            </div>
+        </section>
+        <section class = "footer">
+            <p class="footer__copyright">&copy; 2019 Зроль Евгений</p>
+            <ul class="footer-nav">
+                <li class="footer-nav__item"><a href="./index.html" class="link footer__link">Главная</a></li>
+                <li class="footer-nav__item"><a href="#" class="link footer__link">О проекте</a></li>
+                <li class="footer-nav__item"><a href="https://praktikum.yandex.ru/" class="link footer__link">Практикум</a></li>
+            </ul>
+            <div class="footer__img">
+                <a class="contact" href="https://github.com/Trollissimo"><img src="<%=require('./image/gh.svg').default%>" alt="логотип github" class="footer__logo"></a>
+                <a class="contact" href="https://vk.com/id2641182"><img src="<%=require('./image/vk.svg').default%>" alt="логотип вконтакте" class="footer__logo"></a>
+            </div>
+        </section>
+    </main>
+    <script src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+.result__show {
+    max-width: 288px;
+    width: 100%;
+    height: 64px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    background: #FFFFFF;
+    border-radius: 80px;
+    align-self: center;
+    margin-bottom: 80px;
+}
+

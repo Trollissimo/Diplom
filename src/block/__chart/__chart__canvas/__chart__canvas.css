@@ -1,0 +1,7 @@
+@import "./__chart__values/__chart__values.css";
+@import "./__chart__result/__chart__result.css";
+@import "./__chart__axisX/__chart__axisX.css";
+
+.chart__canvas {
+    display: flex;
+}

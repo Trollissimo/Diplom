@@ -3,11 +3,12 @@
 .newsList {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: flex-start;
     color: black;
     background: #F5F6F7;
     margin-top: 64px;
     margin-left: 104px;
-    margin-right: 104px;
+    margin-right: 88px;
     margin-bottom: 64px;
 }

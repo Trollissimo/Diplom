@@ -1,0 +1,9 @@
+@import "./__chart__scale/__chart__scale.css";
+
+.chart__result {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 0px;
+    
+}

@@ -1,0 +1,18 @@
+.chart__scale {
+    width: 170px;
+    height: 24px;
+    background-color: #2F71E5;
+}
+
+.chart__scale_span {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-left: 6px;
+    align-items: center;
+}

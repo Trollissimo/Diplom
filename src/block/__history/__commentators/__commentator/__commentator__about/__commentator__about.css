@@ -1,0 +1,6 @@
+@import "./__commentator__ava/__commentator__ava.css";
+@import "./__commentator__info/__commentator__info.css";
+
+.commentator__about {
+    display: flex;
+}

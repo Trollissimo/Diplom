@@ -1,0 +1,10 @@
+@import "./__client__text/__client__text.css";
+@import "./__client__title/client__title.css";
+
+.client {
+    max-width: 815px;
+    width: 100%;
+    margin-left: 104px;
+    color: #1A1B22;
+    margin-top: 80px;
+}

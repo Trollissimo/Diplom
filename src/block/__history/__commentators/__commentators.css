@@ -1,0 +1,11 @@
+@import "./__commentator/__commentator.css";
+@import "./__arrow/__arrow.css";
+
+.commentators {
+    display: flex;
+    flex-direction: row;
+    margin-top: 64px;
+    margin-left: 24px;
+    margin-right: 24px;
+    justify-content: space-between;
+}

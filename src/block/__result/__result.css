@@ -1,16 +1,16 @@
 @import "./__newsList/__newsList.css";
 @import "./__result__title/__result__title.css";
 @import "./__result__analytics/__result__analytics.css";
+@import "./__result__show/__result__show.css";
+@import "./__reult__header/__result__header.css";
+@import "./__notFound/notFound.css";
+@import "./__preloader/__preloader.css";
 
 .result {
     color: #1A1B22;
     background: #F5F6F7;
     padding-top: 80px;
+    display: flex;
+    flex-direction: column;
 }
 
-.result__header {
-    display: flex;
-    justify-content: space-between;
-    margin-left: 104px;
-    margin-right: 104px;
-}

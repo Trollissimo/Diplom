@@ -1,0 +1,14 @@
+@import "./__chart__number/__chart__number.css";
+
+.chart__values {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 80px;
+    margin-left: 104px;
+    height: 538px;
+    width: 104px;
+    padding: 0;
+    margin-top: -16px;
+}

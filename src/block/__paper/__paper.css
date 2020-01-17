@@ -1,0 +1,8 @@
+@import "./__paper__info/__paper__info.css";
+@import "./__paper__request/__paper__request.css";
+@import "./__paper__title/__paper__title.css";
+
+.paper {
+    margin-left: 104px;
+    color: #1A1B22;
+}

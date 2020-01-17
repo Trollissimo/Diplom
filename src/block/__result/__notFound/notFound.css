@@ -1,0 +1,12 @@
+@import "./__notFound__subtitle/__notFound__subtitle.css";
+@import "./__notFound__title/__notFound__title.css";
+
+.notFound {
+    max-width: 356px;
+    width: 100%;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 80px;
+}

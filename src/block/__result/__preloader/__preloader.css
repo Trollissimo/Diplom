@@ -1,0 +1,8 @@
+@import "./__circle-preloader/__circle-preloader.css";
+@import "./__preloader__text/__preloader_text.css";
+
+.preloader {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}

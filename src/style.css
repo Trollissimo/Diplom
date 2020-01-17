@@ -5,3 +5,9 @@
 @import url("./block/__author/__author.css");
 @import url("./block/__footer/__footer.css");
 @import "./block/__result/__result.css";
+@import "./block/__client/__client.css";
+@import "./block/__tech/__tech.css";
+@import "./block/__history/__history.css";
+@import "./block/__paper/__paper.css";
+@import "./block/__chart/__chart.css";
+@import "./vendor/fonts.css";

@@ -1,0 +1,9 @@
+@import "./__chart__axisName/__axisName.css";
+
+.chart__axesNames {
+    display: flex;
+    margin-left: 104px;
+    margin-right: 104px;
+    margin-top: 40px;
+    border-bottom: 1px solid #1A1B22;
+}

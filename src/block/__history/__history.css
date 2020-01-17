@@ -1,0 +1,10 @@
+@import "./__commentators/__commentators.css";
+@import "./__control/_control.css";
+
+.history {
+    background-color: #F5F6F7;
+    color: #1A1B22;
+    padding-top: 72px;
+    display: flex;
+    flex-direction: column;
+}

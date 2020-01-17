@@ -1,0 +1,13 @@
+@import "./__chart__coordinate/__chart__coordinate.css";
+
+.chart__axisX {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 208px;
+    margin-right: 104px;
+    justify-content: space-between;
+    margin-top: 16px;
+}

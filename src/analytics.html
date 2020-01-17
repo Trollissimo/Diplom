@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta description = "Аналитика поиска">
+        <meta name="author" content="Зроль Евгений" />
+        <link rel="icon" href="<%=require('./image/favicon.png').default%>" type="image/x-icon">
+        <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css %>">
+        <title>Аналитика</title>
+    </head>
+<body>
+    <main class="main">
+        <header class="header header_black">
+            <p class = "logo">NewsAnalyzer</p>
+            <nav class = "nav">
+                <a class = "nav__item nav__item_grow" href="./index.html">Главная</a>
+                <a class = "nav__item nav__item_grow" href="#">О проекте</a>
+            </nav>
+        </header>
+        <section class="paper">
+            <p class="paper__title">Главная /
+                <span class="paper__title_span">Аналитика</span>
+            </p>
+            <h3 class="paper__request">Вы спросили: «Путешествия»</h3>
+            <p class="paper__info">Новостей за неделю: <span class="paper__info_span">31254</span></p>
+            <p class="paper__info">Упоминаний в заголовках: <span class="paper__info_span">123</span></p>
+        </section>
+        <section class="chart">
+            <h2 class="chart__title">Аналитика по дням</h2>
+            <div class="chart__axesNames">
+                <p class="chart__axisName">дата</br>(Август)</p>
+                <p class="chart__axisName">Кол-во упоминаний</p>
+            </div>
+            <ul class="chart__axisX">
+                <li class="chart__coordinate">0</li>
+                <li class="chart__coordinate">25</li>
+                <li class="chart__coordinate">50</li>
+                <li class="chart__coordinate">75</li>
+                <li class="chart__coordinate">100</li>
+            </ul>
+            <div class="chart__canvas">
+                
+                <ul class="chart__values">
+                    <li class="chart__number">19, пн</li>
+                    
+                </ul>
+                <ul class="chart__result">
+                    <li class="chart__scale"><span class="chart__scale_span">15</span></li>
+                </ul>
+                
+            </div>
+            <ul class="chart__axisX">
+                <li class="chart__coordinate">0</li>
+                <li class="chart__coordinate">25</li>
+                <li class="chart__coordinate">50</li>
+                <li class="chart__coordinate">75</li>
+                <li class="chart__coordinate">100</li>
+            </ul>
+        </section>
+        <section class = "footer">
+            <p class="footer__copyright">&copy; 2019 Зроль Евгений</p>
+            <ul class="footer-nav">
+                <li class="footer-nav__item"><a href="./index.html" class="link footer__link">Главная</a></li>
+                <li class="footer-nav__item"><a href="#" class="link footer__link">О проекте</a></li>
+                <li class="footer-nav__item"><a href="https://praktikum.yandex.ru/" class="link footer__link">Практикум</a></li>
+            </ul>
+            <div class="footer__img">
+                <a class="contact" href="https://github.com/Trollissimo"><img src="<%=require('./image/gh.svg').default%>" alt="логотип github" class="footer__logo"></a>
+                <a class="contact" href="https://vk.com/id2641182"><img src="<%=require('./image/vk.svg').default%>" alt="логотип вконтакте" class="footer__logo"></a>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

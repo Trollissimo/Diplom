@@ -1,0 +1,13 @@
+@import "./__commentator__about/__commentator__about.css";
+@import "./__commentator__date/__commentator__date.css";
+@import "./__commentator__commet/__commentator__commet.css";
+
+.commentator {
+    max-width: 400px;
+    width: 100%;
+    background-color: #ffffff;
+    margin-right: 16px;
+    margin-bottom: 46px;
+    border-radius: 16px;
+    height: 288px;
+}

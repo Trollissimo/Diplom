@@ -1,0 +1,10 @@
+@import "./__chart__title/__chart__title.css";
+@import "./chart__axesNames/__axesNames.css";
+@import "./__chart__canvas/__chart__canvas.css";
+
+.chart {
+    background-color: #F5F6F7;
+    color: #1A1B22;
+    margin-top: 80px;
+    padding-bottom: 80px;
+}

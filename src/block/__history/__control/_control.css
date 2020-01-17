@@ -1,0 +1,7 @@
+@import "./__control__ellips/__control__ellips.css";
+
+.control {
+    display: flex;
+    margin-bottom: 80px;
+    align-self: center;
+}

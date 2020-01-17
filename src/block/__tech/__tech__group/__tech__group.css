@@ -1,0 +1,7 @@
+@import "./__cell/__cell.css";
+
+.tech__group {
+    display: flex;
+    flex-direction: row;
+    margin-top: 93px;
+}

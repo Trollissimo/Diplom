@@ -1,0 +1,7 @@
+@import "./__commentator__email/__commentator__email.css";
+@import "./__commentator__name/__commentator__name.css";
+
+.commentator__info {
+    display: flex;
+    flex-direction: column;
+}

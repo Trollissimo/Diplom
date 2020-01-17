@@ -1,0 +1,11 @@
+@import "./__tech__title/__tech__title.css";
+@import "./__tech__group/__tech__group.css";
+
+.tech {
+    margin-top: 94px;
+    background-color: #F5F6F7;
+    color: #1A1B22;
+    height: 334px;
+    display: flex;
+    flex-direction: row;
+}
