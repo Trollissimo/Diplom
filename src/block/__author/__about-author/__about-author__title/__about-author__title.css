@@ -6,3 +6,19 @@
     line-height: 46px;
     margin-top: 51px;
 }
+
+@media (min-width : 500px) and (max-width : 768px) {
+    .about-author__title {
+        font-size: 30px;
+        line-height: 40px;
+        margin-top: 40px;
+    }
+}
+@media (min-width : 320px) and (max-width : 499px) {
+    .about-author__title {
+        font-size: 30px;
+        line-height: 40px;
+        margin-top: 0px;
+        margin-bottom: 16px;
+    }
+}

@@ -11,3 +11,4 @@
 @import "./block/__paper/__paper.css";
 @import "./block/__chart/__chart.css";
 @import "./vendor/fonts.css";
+@import "./block/link.css";

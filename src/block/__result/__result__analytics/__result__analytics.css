@@ -14,4 +14,17 @@
 .group__analytics {
     display: flex;
     align-items: center;
+    justify-content: flex-end;
+}
+
+@media (min-width : 320px) and (max-width : 500px) {
+    .group__analytics {
+        justify-content: flex-start;
+        margin-top: 16px;
+    }
+}
+@media (min-width : 320px) and (max-width : 500px) {
+    .group__analytics_none {
+        display: none;
+    }
 }

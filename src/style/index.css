@@ -1,0 +1,7 @@
+@import "../block/__main.css";
+@import "../block/link.css";
+@import "../block/__search/search.css";
+@import "../block/__result/__result.css";
+@import "../block/__author/__author.css";
+@import "../block/__footer/__footer.css";
+@import "../block/__header/_header.css";

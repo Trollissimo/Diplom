@@ -1,0 +1,19 @@
+/*.link {
+    transition: opacity 2s linear;
+}
+.link:hover {
+    color: black;
+    opacity: 0.2;
+}*/
+.link {
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+
+.link:hover {
+    background-size: 100% 2px;
+}

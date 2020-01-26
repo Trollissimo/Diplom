@@ -8,4 +8,22 @@
     height: 334px;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+}
+
+
+@media (min-width : 500px) and (max-width : 1060px) {
+    .tech {
+        margin-top: 40px;
+        flex-direction: column;
+    }
+}
+@media (min-width : 320px) and (max-width : 499px) {
+    .tech {
+        margin-top: 32px;
+        flex-direction: column;
+        height: 528px;
+        justify-content: flex-start;
+        align-items: center;
+    }
 }

@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta description = "Информация о проекте, использованных технологиях, ">
     <meta name="author" content="Зроль Евгений" />
+    <meta description="Информация о проекте, использованных технологиях, авторе">
     <link rel="icon" href="<%=require('./image/favicon.png').default%>" type="image/x-icon">
     <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css %>">
     <title>О проекте</title>
@@ -15,8 +15,8 @@
         <header class="header header_black">
             <p class = "logo">NewsAnalyzer</p>
             <nav class = "nav">
-                <a class = "nav__item nav__item_grow " href="./index.html">Главная</a>
-                <a class = "nav__item nav__item_active_black nav__item_black" href="#">О проекте</a>
+                <a class = "link nav__item nav__item_grow " href="./index.html">Главная</a>
+                <a class = "link nav__item nav__item_active_black nav__item_black" href="#">О проекте</a>
             </nav>
         </header>
         <section class="client">
@@ -32,19 +32,19 @@
             <div class="tech__group">
                 <div class="cell">
                     <h3 class="cell_title">HTML</h3>
-                    <img src="<%=require('./image/html.svg').default%>" alt="" class="cell__img">
+                    <img src="<%=require('./image/html.svg').default%>" alt="html" class="cell__img">
                 </div>
                 <div class="cell">
                     <h3 class="cell_title">CSS</h3>
-                    <img src="<%=require('./image/css.svg').default%>" alt="" class="cell__img">
+                    <img src="<%=require('./image/css.svg').default%>" alt="css" class="cell__img">
                 </div>
                 <div class="cell">
                     <h3 class="cell_title">JavaScript</h3>
-                    <img src="<%=require('./image/js.svg').default%>" alt="" class="cell__img">
+                    <img src="<%=require('./image/js.svg').default%>" alt="js" class="cell__img">
                 </div>
                 <div class="cell">
                     <h3 class="cell_title">Webpack</h3>
-                    <img src="<%=require('./image/webpack.svg').default%>" alt="" class="cell__img">
+                    <img src="<%=require('./image/webpack.svg').default%>" alt="webpack" class="cell__img">
                 </div>
             </div>
         </section>
@@ -57,10 +57,10 @@
         </section>
         <section class="history">
             <div class = "result__header">
-                <h2 class="result__title">История коммитов из GitHub</h2>
-                <div class="group__analytics">
-                    <a class="result__analytics" href="https://github.com/Trollissimo/Diplom">Открыть в Github</a>
-                    <a class=arrow href="https://github.com/Trollissimo/Diplom"><img src="<%=require('./image/arrow.svg').default%>"></a>
+                <h2 class="result__title">История коммитов </br> из GitHub</h2>
+                <div class="group__analytics group__analytics_none">
+                    <a class="link result__analytics" href="https://github.com/Trollissimo/Diplom">Открыть в Github</a>
+                    <a class="link arrow" href="https://github.com/Trollissimo/Diplom"><img src="<%=require('./image/arrow.svg').default%>" alt="Стрелка"></a>
                 </div>
             </div>
             <div class="commentators">
@@ -76,28 +76,6 @@
                     </div>
                     <p class="commentator__commet"> You can install this plugin directly from NetBeans Plugin Portal: in NetBeans, open Tools > Plugins > Available plugins and find and install Emmet plugin.</p>
                 </div>
-                <div class="commentator">
-                    <p class="commentator__date">какая то дата</p>
-                    <div class="commentator__about">
-                        <img src="<%=require('./image/комментатор.jpg').default%>" alt="фото комментатора" class="commentator__ava">
-                        <div class="commentator__info">
-                            <h4 class="commentator__name">Антон Долинин</h4>
-                            <p class="commentator__email">anton@yandex.ru</p>
-                        </div>
-                    </div>
-                    <p class="commentator__commet">Emmet (formerly Zen Coding) is a web- developer’s toolkit that can greatly improve your HTML & CSS workflow.</p>
-                </div>
-                <div class="commentator">
-                    <p class="commentator__date">какая то дата</p>
-                    <div class="commentator__about">
-                        <img src="<%=require('./image/комментатор.jpg').default%>" alt="фото комментатора" class="commentator__ava">
-                        <div class="commentator__info">
-                            <h4 class="commentator__name">Антон Долинин</h4>
-                            <p class="commentator__email">anton@yandex.ru</p>
-                        </div>
-                    </div>
-                    <p class="commentator__commet">Emmet (formerly Zen Coding) is a web- developer’s toolkit that can greatly improve your HTML & CSS workflow.</p>
-                </div>
                 <img class="rightArrow" src="<%=require('./image/rightArrow.svg').default%>" alt="правая кнопка слайдера">
             </div>
             <div class="control">
@@ -111,11 +89,11 @@
             <ul class="footer-nav">
                 <li class="footer-nav__item"><a href="./index.html" class="link footer__link">Главная</a></li>
                 <li class="footer-nav__item"><a href="#" class="link footer__link">О проекте</a></li>
-                <li class="footer-nav__item"><a href="https://praktikum.yandex.ru/" class="link footer__link">Практикум</a></li>
+                <li class="footer-nav__item"><a href="https://praktikum.yandex.ru/" class="link footer__link">Яндекс. Практикум</a></li>
             </ul>
             <div class="footer__img">
-                <a class="contact" href="https://github.com/Trollissimo"><img src="<%=require('./image/gh.svg').default%>" alt="логотип github" class="footer__logo"></a>
-                <a class="contact" href="https://vk.com/id2641182"><img src="<%=require('./image/vk.svg').default%>" alt="логотип вконтакте" class="footer__logo"></a>
+                <a class="link contact" href="https://github.com/Trollissimo"><img src="<%=require('./image/gh.svg').default%>" alt="логотип github" class="footer__logo"></a>
+                <a class="link contact" href="https://vk.com/id2641182"><img src="<%=require('./image/vk.svg').default%>" alt="логотип вконтакте" class="footer__logo"></a>
             </div>
         </section>
     </main>

@@ -5,3 +5,12 @@
 .rightArrow {
    margin-left: 24px;
 }
+
+@media (min-width : 320px) and (max-width : 768px) {
+   .rightArrow {
+      display: none;
+   }
+   .leftArrow {
+      display: none;
+   }
+}

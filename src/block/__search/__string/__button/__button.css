@@ -4,11 +4,34 @@
     background: #2F71E5;
     box-shadow: 0px 5px 15px rgba(14, 26, 57, 0.2);
     border-radius: 100px;
-    margin-left: -168px;
+    margin-left: -160px;
     color: white;
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 24px;
+    outline: 0 !important;
+    cursor: pointer;
+}
+.string__button:hover {
+    background: #347EFF;
+}
+.string__button:active{
+    background: #2A65CC;
+}
+
+@media (min-width : 500px) and (max-width : 768px) {
+    .string__button {
+        width: 160px;
+    }
+}
+
+@media (min-width : 320px) and (max-width : 500px) {
+    .string__button {
+        margin-left: 0%;
+        margin-right: 0%;
+        width: 288px;
+        margin-top: 16px;
+    }
 }

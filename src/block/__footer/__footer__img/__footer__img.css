@@ -5,3 +5,19 @@
     display: flex;
     margin-right: 76px;
 }
+
+@media (min-width : 500px) and (max-width : 768px) {
+    .footer__img {
+       margin-right: 12px;
+    }
+}
+@media (min-width : 320px) and (max-width : 499px) {
+    .footer__img {
+       position: absolute;
+       right: 0;
+       top: 0;
+       margin-right: 18px;
+       width: 70px;
+       justify-content: space-between;
+    }
+}

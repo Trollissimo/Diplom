@@ -8,3 +8,10 @@
     color: black;
     justify-content: space-between;
 }
+
+@media (min-width : 320px) and (max-width : 499px) {
+    .footer {
+        position: relative;
+        flex-direction: column-reverse;
+    }
+}

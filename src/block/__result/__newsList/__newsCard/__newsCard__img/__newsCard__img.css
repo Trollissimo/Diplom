@@ -2,4 +2,17 @@
     width:100%;
     max-height: 272px;
     height: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+@media (min-width : 500px) and (max-width : 769px) {
+    .newsCard__img {
+        max-height: 150px;
+    }
+}
+@media (min-width : 320px) and (max-width : 500px) {
+    .newsCard__img {
+        max-height: 192px;
+    }
 }

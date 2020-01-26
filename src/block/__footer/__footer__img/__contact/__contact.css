@@ -5,3 +5,12 @@
     margin-top: 30px;
     margin-bottom: 26px;
 }
+
+
+@media (min-width : 320px) and (max-width : 499px) {
+    .contact {
+        margin-right: 0px;
+        width: 24px;
+        height: 24px;
+    }
+}

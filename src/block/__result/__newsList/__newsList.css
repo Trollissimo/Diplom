@@ -12,3 +12,19 @@
     margin-right: 88px;
     margin-bottom: 64px;
 }
+
+
+@media (min-width : 500px) and (max-width : 768px) {
+    .newsList {
+        margin-left: 40px;
+        margin-right: 32px;
+    }
+}
+
+@media (min-width : 320px) and (max-width : 500px) {
+    .newsList {
+       margin: auto;
+       margin-top: 37px;
+       justify-content: center;
+    }
+}

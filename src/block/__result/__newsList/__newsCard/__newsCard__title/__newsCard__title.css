@@ -9,3 +9,20 @@
     margin-top: 12px;
     margin-bottom: 0px;
 }
+
+@media (min-width : 500px) and (max-width : 768px) {
+    .newsCard__title {
+        font-size: 22px;
+        line-height: 24px;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+}
+@media (min-width : 320px) and (max-width : 499px) {
+    .newsCard__title {
+        font-size: 22px;
+        line-height: 26px;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+}

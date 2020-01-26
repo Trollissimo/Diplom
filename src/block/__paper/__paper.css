@@ -6,3 +6,14 @@
     margin-left: 104px;
     color: #1A1B22;
 }
+
+@media (min-width : 500px) and (max-width : 768px) {
+    .paper {
+        margin-left:40px;
+    }
+}
+@media (min-width : 320px) and (max-width : 499px) {
+    .paper {
+        margin-left:16px;
+    }
+}

@@ -8,3 +8,14 @@
     margin-top: 80px;
     padding-bottom: 80px;
 }
+
+@media (min-width : 500px) and (max-width : 768px) {
+    .chart {
+        margin-top: 40px;
+    }
+}
+@media (min-width : 320px) and (max-width : 499px) {
+    .chart {
+        margin-top: 24px;
+    }
+}

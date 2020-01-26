@@ -11,3 +11,16 @@
     justify-content: space-between;
     margin-top: 16px;
 }
+
+@media (min-width : 500px) and (max-width : 768px) {
+    .chart__axisX {
+        margin-left: 144px;
+        margin-right: 40px;
+    }
+}
+@media (min-width : 320px) and (max-width : 499px) {
+    .chart__axisX {
+        margin-left: 120px;
+        margin-right: 16px;
+    }
+}

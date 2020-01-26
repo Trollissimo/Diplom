@@ -5,3 +5,15 @@
     margin-top: 30px;
     margin-right: 67px;
 }
+
+@media (min-width : 500px) and (max-width : 768px) {
+    .nav {
+        margin-right: 6px;
+    }
+}
+@media (min-width : 320px) and (max-width : 500px) {
+    .nav {
+        margin-right: 4px;
+        margin-top: 16px
+    }
+}

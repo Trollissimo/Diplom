@@ -3,11 +3,23 @@
 @import "./__commentator__commet/__commentator__commet.css";
 
 .commentator {
-    max-width: 400px;
-    width: 100%;
+    width: calc(100%/3-16px);
     background-color: #ffffff;
     margin-right: 16px;
     margin-bottom: 46px;
     border-radius: 16px;
     height: 288px;
+}
+
+@media (min-width : 500px) and (max-width : 768px) {
+    .commentator {
+        width: calc(100%/2-8px);
+    }
+}
+
+@media (min-width : 320px) and (max-width : 500px) {
+    .commentator {
+        width: 100%;
+        margin: auto;
+    }
 }

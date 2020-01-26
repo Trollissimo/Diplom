@@ -8,4 +8,11 @@
     margin-left: 24px;
     margin-right: 24px;
     justify-content: space-between;
+    position: relative;
+}
+
+@media (min-width : 320px) and (max-width : 500px) {
+    .commentators {
+        margin-top:16px;
+    }
 }

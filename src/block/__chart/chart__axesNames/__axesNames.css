@@ -7,3 +7,16 @@
     margin-top: 40px;
     border-bottom: 1px solid #1A1B22;
 }
+
+@media (min-width : 500px) and (max-width : 768px) {
+    .chart__axesNames {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+}
+@media (min-width : 320px) and (max-width : 499px) {
+    .chart__axesNames {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+}

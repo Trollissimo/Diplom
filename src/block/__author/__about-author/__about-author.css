@@ -6,3 +6,18 @@
     margin-top: 80px;
     margin-bottom: 80px;
 }
+
+@media (min-width : 500px) and (max-width : 768px) {
+    .about-author {
+        width: 424px;
+        margin-top: 0px;
+        margin-right: 40px;
+    }
+}
+
+@media (min-width : 320px) and (max-width : 499px) {
+    .about-author {
+        width: 90%;
+        margin: auto;
+    }
+}

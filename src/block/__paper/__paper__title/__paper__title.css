@@ -10,3 +10,9 @@
 .paper__title_span {
     color: #B6BCBF;
 }
+
+@media (min-width : 320px) and (max-width : 499px) {
+    .paper__title {
+        display: none;
+    }
+}

@@ -2,8 +2,16 @@
 @import url('./__button/__button.css');
 
 .string {
-    margin: auto;
     box-sizing: border-box;
     margin-bottom: 80px;
     margin-top: 64px;
+}
+
+@media (min-width : 320px) and (max-width : 500px) {
+    .string {
+        width: 288px;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 32px;
+    }
 }

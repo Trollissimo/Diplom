@@ -6,3 +6,10 @@
     flex-direction: row;
     color: black;
 }
+
+@media (min-width : 320px) and (max-width : 500px) {
+    .author {
+        flex-direction: column;
+        justify-content: center;
+    }
+}

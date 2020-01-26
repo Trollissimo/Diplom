@@ -9,3 +9,19 @@
     margin-top: 16px;
     margin-bottom: 0px;
 }
+
+@media (min-width : 500px) and (max-width : 769px) {
+    .newsCard__description {
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-top: 10px;
+    }
+}
+
+@media (min-width : 320px) and (max-width : 500px) {
+    .newsCard__description {
+        margin-top: 10px;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+}

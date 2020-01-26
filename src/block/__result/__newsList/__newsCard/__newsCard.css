@@ -7,6 +7,7 @@
 .newsCard {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     width: calc(100%/3-16px);
     height: 576px;
     background: white;
@@ -16,7 +17,34 @@
 }
 
 .newsCard__text {
-    height: 200px;
     display: block;
     overflow: auto;
+}
+
+@media (min-width : 769px) and (max-width : 940px) {
+    .newsCard {
+        width: calc(100%/2-16px);
+    }
+}
+@media (min-width : 640px) and (max-width : 768px) {
+    .newsCard {
+        margin-right: 8px;
+        height: 430px;
+    }
+}
+@media (min-width : 500px) and (max-width : 640px) {
+    .newsCard {
+        width: calc(100%/2-16px);
+        margin-right: 8;
+    }
+}
+
+@media (min-width : 320px) and (max-width : 500px) {
+    .newsCard {
+        height: 446px;
+        max-width: 400px;
+        width: 100%;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
 }

@@ -8,3 +8,22 @@
     margin-left: 104px;
     margin-top: 30px;
 }
+
+@media (min-width : 500px) and (max-width : 768px) {
+    .footer__copyright {
+        margin-left: 40px;
+    }
+}
+
+@media (min-width : 320px) and (max-width : 499px) {
+    .footer__copyright {
+        margin-left: 16px;
+        margin-bottom: 22px;
+        margin-top: 40px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 22px;
+    }
+}

@@ -4,4 +4,20 @@
     font-weight: normal;
     font-size: 18px;
     line-height: 24px;
+    margin-right: 7.2%;
+}
+
+@media (min-width : 500px) and (max-width : 768px) {
+    .about-author__description {
+        font-size: 18px;
+        line-height: 24px;
+    }
+}
+@media (min-width : 500px) and (max-width : 768px) {
+    .about-author__description {
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
 }

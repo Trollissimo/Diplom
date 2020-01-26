@@ -10,3 +10,14 @@
     width: 120px;
     height: 153px;
 }
+
+@media (min-width : 500px) and (max-width : 768px) {
+    .cell {
+        margin: 0px;
+    }
+}
+@media (min-width : 320px) and (max-width : 499px) {
+    .cell {
+        margin-right: 24px;
+    }
+}

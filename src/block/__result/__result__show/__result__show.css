@@ -10,6 +10,20 @@
     background: #FFFFFF;
     border-radius: 80px;
     align-self: center;
-    margin-bottom: 80px;
+    margin-bottom: 80px;    
+    outline: 0 !important;
+    cursor: pointer;
+}
+.result__show:hover {
+    background: rgb(214, 215, 216);
+}
+.result__show:active{
+    background: white;
 }
 
+@media (min-width : 320px) and (max-width : 500px) {
+    .result__show {
+        margin-top: 13px;
+        margin-bottom: 44px;
+    }
+}

@@ -2,9 +2,20 @@
 @import "./__client__title/client__title.css";
 
 .client {
-    max-width: 815px;
-    width: 100%;
+    display: flex;
+    flex-direction: column;
     margin-left: 104px;
+    margin-right: 104px;
     color: #1A1B22;
     margin-top: 80px;
+}
+
+@media (min-width : 320px) and (max-width : 768px) {
+    .client {
+        max-width: 688px;
+        margin-left: 40px;
+        margin-right: 40px;
+        max-width: 688px;
+        margin-top: 30px;
+    }
 }

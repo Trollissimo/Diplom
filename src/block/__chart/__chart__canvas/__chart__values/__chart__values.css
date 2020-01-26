@@ -12,3 +12,16 @@
     padding: 0;
     margin-top: -16px;
 }
+
+@media (min-width : 500px) and (max-width : 768px) {
+    .chart__values {
+        margin-left: 40px;
+      
+    }
+}
+@media (min-width : 320px) and (max-width : 499px) {
+    .chart__values {
+        margin-left: 16px;
+        
+    }
+}
