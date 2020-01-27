@@ -8,7 +8,7 @@
         <meta name="author" content="Зроль Евгений" />
         <meta description="Аналитика поиска">
         <link rel="icon" href="<%=require('./image/favicon.png').default%>" type="image/x-icon">
-        <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css %>">
+        <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.analytics.css %>">
         <title>Аналитика</title>
     </head>
 <body>
@@ -73,5 +73,6 @@
             </div>
         </section>
     </main>
+    <script src="<%= htmlWebpackPlugin.files.chunks.analytics.entry %>"></script>
 </body>
 </html>

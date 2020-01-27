@@ -1,10 +1,4 @@
-/*.link {
-    transition: opacity 2s linear;
-}
-.link:hover {
-    color: black;
-    opacity: 0.2;
-}*/
+
 .link {
     text-decoration: none;
     background-image: linear-gradient(currentColor, currentColor);

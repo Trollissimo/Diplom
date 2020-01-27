@@ -6,3 +6,6 @@
 @import "../block/__tech/__tech.css";
 @import "../block/__author/__author.css";
 @import "../block/__history/__history.css";
+@import "../block/__result/__reult__header/__result__header.css";
+@import "../block/__result/__result__title/__result__title.css";
+@import "../block/__result/__result__analytics/__result__analytics.css";

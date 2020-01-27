@@ -7,7 +7,7 @@
     <meta name="author" content="Зроль Евгений" />
     <meta description="Информация о проекте, использованных технологиях, авторе">
     <link rel="icon" href="<%=require('./image/favicon.png').default%>" type="image/x-icon">
-    <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css %>">
+    <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.project.css %>">
     <title>О проекте</title>
 </head>
 <body>
@@ -97,6 +97,6 @@
             </div>
         </section>
     </main>
-    <script src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
+    <script src="<%= htmlWebpackPlugin.files.chunks.project.entry %>"></script>
 </body>
 </html>
