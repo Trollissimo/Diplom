@@ -1,21 +1,36 @@
 @font-face {
   font-family: 'Roboto';
-  font-style:  medium;
+  font-style:  normal;
   font-weight: 400;
   src: url("./fonts/roboto-medium-webfont.woff") format("woff");
 }
-
-
+@font-face {
+  font-family: 'dutch';
+  src: url('./fonts/dutch.woff');
+  font-weight: 400;
+  font-style: normal;
+}
 @font-face {
   font-family: 'Roboto';
-  font-style:  regular;
+  font-style:  normal;
   font-weight: 900;
-  src: url("./fonts/roboto-regular-webfont.woff") format("woff");
+  src: url("../vendor/fonts/roboto-regular-webfont.woff") format("woff");
 }
-
+@font-face {
+  font-family: 'dutch-bold';
+  src: url('./fonts/dutch-bold.woff');
+  font-weight: 900;
+  font-style: normal;
+}
 @font-face {
   font-family: 'Roboto Slab';
-  font-style:  regular;
+  font-style:  normal;
   font-weight: 900;
   src: url("./fonts/robotoslab-regular-webfont.woff") format("woff");
+}
+@font-face {
+  font-family: 'try-clother-black';
+  src: url('./fonts/try-clother-black.woff');
+  font-weight: 900;
+  font-style: normal;
 }

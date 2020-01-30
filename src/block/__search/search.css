@@ -6,7 +6,7 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    background-image: url("../../image/фон.jpg");
+    background-image: url("~../../image/фон.jpg");
     background-size: cover;
     background-position: center;
     z-index: 1;

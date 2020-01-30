@@ -14,7 +14,7 @@ module.exports = {
 },
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: '[name].[chunkhash].js'
+    filename: 'js/[name].[chunkhash].js',
   },
   module: {
     rules: [
@@ -28,15 +28,19 @@ module.exports = {
   {
     test: /\.css$/i,
     use: [
-        (isDev ? 'style-loader' : MiniCssExtractPlugin.loader),
-        'css-loader', 
+      {
+        loader:  MiniCssExtractPlugin .loader,
+        options: {
+        publicPath:  '../',
+        },},
+        'css-loader',
         'postcss-loader'
     ]
        },
       {
         test: /\.(png|jpg|gif|ico|svg)$/i,
     use: [
-      'file-loader?name=images/[name].[ext]',
+      'file-loader?name=image/[name].[ext]',
       {
         loader: 'image-webpack-loader',
         options: {
@@ -48,13 +52,13 @@ module.exports = {
     },
     {
       test: /\.(eot|ttf|woff|woff2)$/,
-      loader: 'file-loader?name=./vendor/[name].[ext]'
+      loader: 'file-loader?name=vendor/[name].[ext]'
       }
     ]
   },
   plugins: [ 
     new MiniCssExtractPlugin({
-      filename: '[name].[contenthash].css'
+      filename: 'style/[name].[contenthash].css'
   }),
     new OptimizeCssAssetsPlugin({
       assetNameRegExp: /\.css$/g,
@@ -66,17 +70,17 @@ module.exports = {
  }),
     new HtmlWebpackPlugin({
       inject: false,
-      template: './src/index.html',
+      template: 'src/index.html',
       filename: 'index.html'
     }),
     new HtmlWebpackPlugin({
       inject: false,
-      template: './src/project.html',
+      template: 'src/project.html',
       filename: 'project.html'
     }),
     new HtmlWebpackPlugin({
       inject: false,
-      template: './src/analytics.html',
+      template: 'src/analytics.html',
       filename: 'analytics.html'
     }),
     new WebpackMd5Hash(),
