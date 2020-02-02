@@ -11,7 +11,8 @@
 
 @media (min-width : 500px) and (max-width : 768px) {
     .subtitle {
-        width: 452px;
+        margin-left: 21.1%;
+        width: 58.9%;
     }
 }
 

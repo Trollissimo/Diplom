@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="author" content="Зроль Евгений" />
-    <meta description="Информация о проекте, использованных технологиях, авторе">
     <link rel="icon" href="<%=require('./image/favicon.png').default%>" type="image/x-icon">
     <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.project.css %>">
     <title>О проекте</title>
@@ -57,10 +56,10 @@
         </section>
         <section class="history">
             <div class = "result__header">
-                <h2 class="result__title">История коммитов </br> из GitHub</h2>
+                <h2 class="result__title">История коммитов из GitHub</h2>
                 <div class="group__analytics group__analytics_none">
-                    <a class="link result__analytics" href="https://github.com/Trollissimo/Diplom">Открыть в Github</a>
-                    <a class="link arrow" href="https://github.com/Trollissimo/Diplom"><img src="<%=require('./image/arrow.svg').default%>" alt="Стрелка"></a>
+                    <a class="link result__analytics" target="_blank" href="https://github.com/Trollissimo/Diplom">Открыть в Github</a>
+                    <a class="link arrow" target="_blank" href="https://github.com/Trollissimo/Diplom"><img src="<%=require('./image/arrow.svg').default%>" alt="Стрелка"></a>
                 </div>
             </div>
             <div class="commentators">
@@ -89,11 +88,11 @@
             <ul class="footer-nav">
                 <li class="footer-nav__item"><a href="./index.html" class="link footer__link">Главная</a></li>
                 <li class="footer-nav__item"><a href="#" class="link footer__link">О проекте</a></li>
-                <li class="footer-nav__item"><a href="https://praktikum.yandex.ru/" class="link footer__link">Яндекс. Практикум</a></li>
+                <li class="footer-nav__item"><a target="_blank" href="https://praktikum.yandex.ru/" class="link footer__link">Яндекс. Практикум</a></li>
             </ul>
             <div class="footer__img">
-                <a class="link contact" href="https://github.com/Trollissimo"><img src="<%=require('./image/gh.svg').default%>" alt="логотип github" class="footer__logo"></a>
-                <a class="link contact" href="https://vk.com/id2641182"><img src="<%=require('./image/vk.svg').default%>" alt="логотип вконтакте" class="footer__logo"></a>
+                <a class="link contact" target="_blank" href="https://github.com/Trollissimo"><img src="<%=require('./image/gh.svg').default%>" alt="логотип github" class="footer__logo"></a>
+                <a class="link contact" target="_blank" href="https://vk.com/id2641182"><img src="<%=require('./image/vk.svg').default%>" alt="логотип вконтакте" class="footer__logo"></a>
             </div>
         </section>
     </main>
